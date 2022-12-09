@@ -1,0 +1,64 @@
+body
+{
+    background-color:teal;
+}
+.title h2
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: green;
+  font-family: Georgia;
+  }
+H2 {
+  font-size: 50px;
+  font-weight: normal;
+  cursor: pointer;
+  text-shadow: 0 0 15px #4e4675;
+  color: transparent;
+  transition: all .5s;
+  }
+  H2:hover {
+    text-shadow: 0 0 0px #999;
+    cursor: pointer;
+    }
+.title h1
+
+.container {
+    width: 400px;
+    padding: 1px 0px;
+  }
+  .text-bold {
+    font-weight: bold;
+  }
+  H1 {
+    font-size: 50px;
+    font-weight: normal;
+    cursor: pointer;
+    text-shadow: 0 0 0 rgb(17, 226, 62);
+    color: transparent;
+    animation: shadows 4s infinite ease-in;
+    }
+  
+  @keyframes shadows {
+    60% {
+      text-shadow: 0 0 0 rgb(15, 238, 108);
+    }
+    90% {
+      text-shadow: 0 30px 40px transparent;
+    }
+    100% {
+        text-shadow: 0 0 0 transparent;
+    }
+    
+  
+img {
+      width:1000;
+      height:400;
+      filter:blur (10px);
+}
+  
+      
+}
+
+  
